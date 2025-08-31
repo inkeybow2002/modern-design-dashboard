@@ -5,5 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function renderCharts() {
-    // Chart rendering logic will go here
+    try {
+        // Chart rendering logic will go here
+    } catch (error) {
+        console.error('Error rendering charts:', error);
+    }
 }
