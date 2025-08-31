@@ -1,0 +1,15 @@
+{
+    "name": "modern-design-dashboard",
+    "version": "1.0.0",
+    "description": "A modern design dashboard template",
+    "main": "index.html",
+    "scripts": {
+        "start": "live-server ."
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "chart.js": "^3.6.0"
+    },
+    "devDependencies": {}
+}
