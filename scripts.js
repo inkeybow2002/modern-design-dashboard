@@ -1,7 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Dashboard loaded');
     // Add your chart rendering logic here
-    renderCharts();
+    if (typeof renderCharts === 'function') {
+        renderCharts();
+    } else {
+        console.error('renderCharts function is not defined');
+    }
 });
 
 function renderCharts() {
